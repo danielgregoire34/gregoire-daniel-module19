@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "jate-package",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,21 +8,21 @@
     "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
-    "install": "cd client && npm install",
+    "install": "cd client && npm install && cd ../client && npm i",
     "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "codemirror": "^6.0.1",
     "express": "^4.17.1",
-    "idb": "^7.1.1",
-    "if-env": "^1.0.4",
-    "workbox-window": "^6.5.4"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "babel-loader": "^9.1.2",
     "concurrently": "^5.2.0",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
     "nodemon": "^2.0.4",
