@@ -9,6 +9,4 @@ run npm start to start the application
 ## Links 
 Github:https://github.com/danielgregoire34/gregoire-daniel-module19
 
-Heroku:
-
-Video:
+Heroku:https://gregoire-daniel-module19.herokuapp.com/
